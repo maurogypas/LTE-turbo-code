@@ -7,7 +7,7 @@
 #define N 2051        // interleaver length + termi
 
 double **alpha, **beta, **gamma, variance, nSymbol0[16], nSymbol1[16], bSymbol0[16], bSymbol1[16];
-short int nextState0[8], nextState1[8], preState0[8], preState1[8];
+char nextState0[8], nextState1[8], preState0[8], preState1[8];
 
 
 /* ***************************************************************************** */
